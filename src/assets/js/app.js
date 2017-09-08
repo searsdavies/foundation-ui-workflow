@@ -7,10 +7,9 @@ import Foundation from 'foundation-sites';
 //import './lib/foundation-explicit-pieces';
 
 // import custom javascript libraries to the project
+import AOS from 'aos'
 import slick from 'slick-carousel';
-import wow from 'wow.js';
 import fancybox from 'fancybox';
-
 
 // Start javascript snippents
 $(document).foundation();

@@ -30,7 +30,7 @@ PATHS:
     - "node_modules/slick-carousel/slick"
     - "node_modules/hamburgers/_sass/hamburgers"
     - "node_modules/fancybox/dist/scss"
-  
+    - "node_modules/aos/src/sass"
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
     - "src/assets/js/app.js"
