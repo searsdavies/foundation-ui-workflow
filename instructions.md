@@ -26,3 +26,11 @@ Add `@import '_custom_sass_file';`to the src/scss/app.scss
 ### Run / Build
 Run `foundation watch` or `npm start` to run Gulp.
 To create compressed, production-ready assets, run `npm run build`.
+
+
+### Git Commands
+git add .
+git commit -m 'message'
+git push -u origin master
+git fetch origin
+git reset --hard origin/master 
