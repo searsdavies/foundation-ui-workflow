@@ -30,7 +30,12 @@ To create compressed, production-ready assets, run `npm run build`.
 
 ### Git Commands
 git add .
+
 git commit -m 'message'
+
 git push -u origin master
+
 git fetch origin
+
 git reset --hard origin/master 
+
