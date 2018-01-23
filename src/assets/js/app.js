@@ -7,9 +7,12 @@ import Foundation from 'foundation-sites';
 //import './lib/foundation-explicit-pieces';
 
 // import custom javascript libraries to the project
-import AOS from 'aos'
 import slick from 'slick-carousel';
-import fancybox from 'fancybox';
+import fancybox from '@fancyapps/fancybox';
+import selectric from 'selectric';
+import matchheight from 'jquery-match-height';
+import mcsb from 'malihu-custom-scrollbar-plugin';
+import paroller from 'paroller.js';
 
 // Start javascript snippents
 $(document).foundation();

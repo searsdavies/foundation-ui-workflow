@@ -1,0 +1,16 @@
+$walbaum: 'Walbaum', serif;
+$open-sans: 'Open Sans', sans-serif;
+$open-sans-con: 'Open Sans Condensed', sans-serif;
+$pink: #e73181;
+$purple: #760948;
+$text-color: #4c4c4c;
+@mixin vAlign($position:relative,$distance:-50%) {
+	position: $position;
+	top: 50%;
+	transform: translateY($distance);
+}
+@mixin bgCover($size:cover, $position: center) {
+	background-size: $size;
+	background-position: $position;
+	background-repeat: no-repeat;
+}

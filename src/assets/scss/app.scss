@@ -56,9 +56,16 @@
 // Behzad : import all SASS libraries for third party libraries installed by NPM/YARN
 @import 'slick-theme.scss';
 @import 'slick.scss';
-@import 'node_modules/fancybox/dist/scss/jquery.fancybox.scss';
 @import 'node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
-@import 'node_modules/aos/src/sass/aos.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+@import 'node_modules/selectric/src/selectric.scss';
+@import 'node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar';
 
 // Behzad : import all CSS libraries for third party libraries installed by NPM/YARN without .css extension
 @import 'node_modules/animate.css/animate';
+@import 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox';
+
+// Custom
+@import 'fonts';
+@import 'helpers';
+@import 'main';

@@ -13,6 +13,7 @@ import webpackStream from 'webpack-stream';
 import webpack2      from 'webpack';
 import named         from 'vinyl-named';
 
+
 // Load all Gulp plugins into one variable
 const $ = plugins();
 
@@ -107,7 +108,15 @@ let webpackConfig = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack2.ProvidePlugin({
+      'window.jQuery':'jquery',
+      'window.$':'jquery',
+      'jQuery':'jquery',
+
+    })
+  ]
 }
 // Combine JavaScript into one file
 // In production, the file is minified
