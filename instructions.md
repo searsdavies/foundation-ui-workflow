@@ -39,3 +39,6 @@ git fetch origin
 
 git reset --hard origin/master 
 
+### Git Desktop Process
+
+
