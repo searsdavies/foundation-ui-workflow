@@ -39,6 +39,18 @@ git fetch origin
 
 git reset --hard origin/master 
 
-### Git Desktop Process
+## Git Desktop Process
+
+### Set-up
+
+Download and install the GitHub Desktop App here:
+https://desktop.github.com/
+
+
+Go to File > Clone Repository
+
+### For each new project
+
+Select the foundation-ui-workflow repository
 
 
